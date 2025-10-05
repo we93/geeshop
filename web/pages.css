@@ -1,0 +1,133 @@
+/* === PAGES PAGE STYLES === */
+
+/* General setup */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background: #1e1e2f;
+  padding: 15px 0;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00aaff;
+}
+
+.nav-links .active {
+  color: #00aaff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #00aaff, #0077ff);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 0 0 50px 50px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+.hero button {
+  background: white;
+  color: #0077ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background: #e0e0e0;
+}
+
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.feature-card h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #0077ff;
+}
+
+.feature-card p {
+  padding: 0 20px 20px;
+  color: #555;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+.footer {
+  background: #1e1e2f;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}

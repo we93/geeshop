@@ -1,0 +1,194 @@
+/* === CONTACT PAGE STYLES === */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9fafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background: #3D4D55;
+  padding: 15px 0;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0077B6;
+}
+
+.nav-links .active {
+  color: #00aaff;
+}
+
+/* Hero Section */
+.contact-hero {
+  background: linear-gradient(to right, #0077ff, #00aaff);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 0 0 50px 50px;
+}
+
+.contact-hero h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-hero p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto;
+  align-items: start;
+}
+
+/* Contact Info */
+.contact-info {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+.contact-info h2 {
+  color: #0077ff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.contact-info i {
+  color: #00aaff;
+  margin-right: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  background: #eceded;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #005fcc;
+}
+
+/* Contact Form */
+.contact-form {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+.contact-form h2 {
+  color: #0077ff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group i {
+  color: #0077ff;
+  margin-right: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+.submit-btn {
+  background: #26658C;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #26658C;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+  background: #02457A;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
